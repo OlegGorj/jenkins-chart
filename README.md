@@ -1,4 +1,4 @@
-# Jenkins Helm Chart
+# Jenkins Helm Chart for IBM Cloud
 
 Jenkins master and slave cluster utilizing the Jenkins Kubernetes plugin
 
@@ -49,7 +49,7 @@ kubectl get nodes
 5. Clone this repository
 
 ```
-git clone git@github.ibm.com:AdvancedAnalyticsCanada/jenkins.git
+git clone https://github.com/OlegGorj/jenkins-chart.git
 ```
 
 6. Install the jenkins helm chart on your machine
