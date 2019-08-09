@@ -6,6 +6,7 @@ Jenkins master and slave cluster utilizing the Jenkins Kubernetes plugin
 
 Inspired by the awesome work of Carlos Sanchez <mailto:carlos@apache.org>
 
+
 ## Quickstart
 
 ### Prerequisites
