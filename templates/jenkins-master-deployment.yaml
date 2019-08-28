@@ -3,6 +3,7 @@ apiVersion: apps/v1
 {{- else }}
 apiVersion: apps/v1beta1
 {{- end }}
+
 kind: Deployment
 metadata:
   name: {{ template "jenkins.fullname" . }}
@@ -206,6 +207,7 @@ spec:
             - containerPort: {{ $port.port }}
               name: {{ $port.name }}
 {{- end }}
+
 {{- if .Values.master.healthProbes }}
           livenessProbe:
             httpGet:
